@@ -1,29 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <div id="box">
-        <p>点击‘继续访问’做单，注册下载，然后登陆，点一下助力即可，非常简单，不用一分钟</p>
-        <a href="http://gzhuoshi.cn/rptRrD0fuxWeRgNuu1609731250/power_share.html?token=c713b89808decd758b695b70c1cd24bf&channel=pic&powerup_status=1">
-        <button>继续访问</button>
-         </a> 
-    </div>
+    <title>一起来养牛</title>
     <style>
-        *{
+        * {
             margin: 0;
             padding: 0;
         }
-        #box{
-           max-width: 100vw;
-           height: 60vh;
-          
-           text-align: center;
-          margin-top: 40vh;
+
+        #wrap {
+            width: 100vw;
+            height: 100vh;
+            background-color: #686868;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        #wrap .box {
+            width: 80%;
+            background-color: #1da06e;
+            border-radius: 15px;
+
+        }
+
+        .box .tite {
+            text-align: center;
+            color: #ffffff;
+            font-size: 30px;
+            padding: 30px;
+            letter-spacing: 3px;
+        }
+
+        .box .content {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 30px;
+            text-align: center;
+        }
+
+        .content .content-body {
+            margin: 20px 30px 0;
+        }
+
+        .content .content-body .lager {
+            font-size: 50px;
+            font-weight: 500;
+        }
+
+        .content .content-body .small {
+            font-size: 26px;
+        }
+
+        .content .content-foot {
+            color: #999999;
+            font-size: 14px;
+            margin-top: 30px;
         }
     </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="box">
+            <p class="tite">喂养成功</p>
+            <div class="content">
+                <p class="content-tit">喂养时间增加啦</p>
+                <div class="content-body"><span class="lager">30<span><span class="small">分钟</span></div>
+                <p class="content-foot">一起来养牛</p>
+            </div>
+        </div>
+    </div>
 </body>
+
 </html>
